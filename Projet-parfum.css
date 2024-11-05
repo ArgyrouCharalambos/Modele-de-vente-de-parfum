@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.body{
+    background-color: hsl(30, 38%, 92%) ;
+    width: 1440px;
+}
+.main{
+    width: 600px;
+    margin: 50% ;
+    background-color: hsl(0, 0%, 100%);  
+    display: inline-block;
+    border-radius: 1rem; 
+}
+.main__img{
+    float: left;
+    margin-right: 30px;
+    height: 500px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 300px;
+}
+.main__section-text{
+    margin-right: 30px;
+}
+.main__h1{
+    font-family:"Fraunces";
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+ }
+.main__h2{
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    display: inline;
+ }
+.main__p-1{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.main__p-2{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;  
+}
+.main__p-3{
+    display: inline;
+    text-decoration:line-through;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    left: 15px;
+}
+.main__button{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    display: block;
+    border-radius: 10px;
+    width: 230px;
+    padding: 15px;
+    border: none;  
+}
